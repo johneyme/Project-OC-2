@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300&display=swap');
+
+#bloc_page {
+    font-family: 'Titillium Web', sans-serif;
+    width: 800px;
+    height: auto;
+    display: flex;
+    margin: 50px auto;
+    border-style: solid ;
+}
+
+aside {
+    max-width: 280px;
+    background-color: #feca07;
+}
+
+.logo {
+    position: relative;
+    display: flex;
+    width: 45px;
+    height: 45px;
+}
+
+header {
+    display: inline-flex;
+    text-align: center;
+}
+
+h2 {
+    text-transform: uppercase;
+}
+
+h3 {
+    text-align: center;
+    color: #feca07;
+    font-size: 1.2em;
+    background-color: #212121;
+}
+
+section {
+    text-align: justify;
+}
+
+h1 strong {
+    color: #feca07;
+}
+
+.logo_2 {
+    color: #feca07;
+    width: 30px;
+    height: 30px;
+}
+
+.photodejohn {
+    position: relative;
+    top: 10px;
+    left: 55px;
+    width: 125px;
+    height: 125px;
+    border-radius: 75px;
+}
+
+section ul {
+    border-top: solid #feca07 1.5px;
+}
