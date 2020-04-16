@@ -1,11 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300&display=swap');
-
 @media print {
-    body{
+    body {
         width: 21cm;
         height: 29.7cm;
         margin: 1px
-   } 
+    }
 }
 
 #bloc_page {
@@ -30,7 +29,6 @@ aside {
     border-radius: 75px;
     border: #212121 solid;
     display: inline-block;
-    
 }
 
 h2 {
@@ -47,9 +45,11 @@ h3 {
 section {
     text-align: justify;
 }
+
 h1 {
     font-size: xx-large;
 }
+
 h1 strong {
     color: #feca07;
 }
@@ -69,10 +69,6 @@ h1 strong {
     border-radius: 75px;
 }
 
-section ul {
-    border-top: solid #feca07 1.5px;
-}
-
 .aside_2 {
     margin-bottom: 25em;
 }
@@ -86,14 +82,29 @@ section ul {
 .aside_photo {
     margin: 2em;
 }
+
 .aside_contact p {
     margin: 2em;
     font-size: small;
 }
+
 .logo_loisir {
-  display: flex;
-  align-items: center;
+    display: flex;
+    align-items: center;
 }
+
 .cotedroit {
     font-size: small;
+}
+
+.alignement {
+    display: flex;
+}
+
+.section_2 {
+    margin: 35px;
+}
+
+section h2 {
+    border-bottom: #feca07 solid 1.2px;
 }
