@@ -1,12 +1,21 @@
 @import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300&display=swap');
 
+@media print {
+    body{
+        width: 21cm;
+        height: 29.7cm;
+        margin: 1px
+   } 
+}
+
 #bloc_page {
     font-family: 'Titillium Web', sans-serif;
     width: 800px;
     height: auto;
     display: flex;
     margin: 50px auto;
-    border-style: solid ;
+    border-style: solid;
+    border-width: 1px;
 }
 
 aside {
@@ -16,14 +25,12 @@ aside {
 
 .logo {
     position: relative;
-    display: flex;
     width: 45px;
     height: 45px;
-}
-
-header {
-    display: inline-flex;
-    text-align: center;
+    border-radius: 75px;
+    border: #212121 solid;
+    display: inline-block;
+    
 }
 
 h2 {
@@ -40,7 +47,9 @@ h3 {
 section {
     text-align: justify;
 }
-
+h1 {
+    font-size: xx-large;
+}
 h1 strong {
     color: #feca07;
 }
@@ -52,14 +61,39 @@ h1 strong {
 }
 
 .photodejohn {
-    position: relative;
-    top: 10px;
-    left: 55px;
-    width: 125px;
-    height: 125px;
+    display: block;
+    margin: auto;
+    margin-top: 8px;
+    width: 130px;
+    height: 130px;
     border-radius: 75px;
 }
 
 section ul {
     border-top: solid #feca07 1.5px;
+}
+
+.aside_2 {
+    margin-bottom: 25em;
+}
+
+.aside_2 p {
+    text-align: justify;
+    margin: 2em;
+    font-size: small;
+}
+
+.aside_photo {
+    margin: 2em;
+}
+.aside_contact p {
+    margin: 2em;
+    font-size: small;
+}
+.logo_loisir {
+  display: flex;
+  align-items: center;
+}
+.cotedroit {
+    font-size: small;
 }
