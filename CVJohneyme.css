@@ -115,10 +115,10 @@ header {
     border-bottom: #feca07 solid 1.4px;
 }
 .contenantdroit {
-    width: 25em;
+    width: 70%;
 }
 .contenantgauche {
-    width: 10em;
+    width: 30%;
 }
 .recommand {
     align-items: center;
@@ -143,3 +143,20 @@ li {
 .logo_2{
     margin-right: 25px;
 }
+
+@media all and  (max-width: 768px)
+{
+#bloc_page
+{
+    display: flex;
+    flex-direction: column-reverse;
+   width: auto;
+   
+    }
+.cotegauche {
+    width: auto;
+    display: flex;
+    flex-direction: column;
+}
+}   
+
