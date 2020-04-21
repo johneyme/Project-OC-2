@@ -63,6 +63,7 @@ h1 strong {
     border-radius: 75px;
     box-shadow: 1px 1px 20px #555;
 }
+
 .photodejohn2 {
     display: none;
 }
@@ -84,6 +85,10 @@ h1 strong {
 .aside_contact p {
     font-size: small;
     line-height: 15px;
+}
+
+aside strong {
+    font-weight: bold;
 }
 
 .logo_loisir {
@@ -154,7 +159,54 @@ li {
     margin-right: 25px;
 }
 
-@media all and (max-width: 768px) {
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+    #bloc_page {
+        display: flex;
+        flex-direction: column-reverse;
+        width: auto;
+    }
+    aside {
+        display: flex;
+        justify-content: space-around;
+        max-width: 100%;
+    }
+    .aside_2 {
+        margin-bottom: unset;
+    }
+    .aside_2 p {
+        font-size: 17px;
+    }
+    .aside_3 {
+        width: 35em;
+    }
+    .aside_contact p {
+        font-size: 15px;
+    }
+    .photodejohn2 {
+        display: block;
+        margin: auto;
+        margin-top: 8px;
+        width: 130px;
+        height: 130px;
+        border-radius: 75px;
+        box-shadow: 1px 1px 20px #555;
+    }
+    header {
+        display: flex;
+        justify-content: space-between;
+    }
+    .logo_loisir {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .aside_photo {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 768px) {
     #bloc_page {
         display: flex;
         flex-direction: column-reverse;
@@ -177,11 +229,27 @@ li {
         border-radius: 75px;
         box-shadow: 1px 1px 20px #555;
     }
-    .photodejohn {
+    .aside_photo {
         display: none;
     }
     header {
         display: flex;
         justify-content: space-between;
+    }
+    .aside_2 {
+        margin-bottom: unset;
+    }
+    .aside_contact p {
+        font-size: 18px;
+        line-height: 25px;
+    }
+    .aside_2 p {
+        font-size: 16px;
+    }
+}
+
+@media print {
+    @page {
+        margin: 1cm;
     }
 }
