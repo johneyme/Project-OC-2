@@ -181,6 +181,8 @@ li {
     }
     .aside_contact p {
         font-size: 15px;
+        line-height: 20px;
+        
     }
     .photodejohn2 {
         display: block;
