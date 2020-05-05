@@ -12,14 +12,15 @@ aside {
     background-color: #feca07;
 }
 
-.logo {
-    position: relative;
-    width: 45px;
-    height: 45px;
-    border-radius: 75px;
+aside .fas {
+    
+    
+    border-radius: 100% ;
     border: #212121 solid;
     display: inline-block;
+    
 }
+
 
 h2 {
     text-transform: uppercase;
@@ -48,11 +49,6 @@ h1 strong {
     color: #feca07;
 }
 
-.logo_2 {
-    color: #feca07;
-    width: 30px;
-    height: 30px;
-}
 
 .photodejohn {
     display: block;
@@ -94,6 +90,7 @@ aside strong {
 .logo_loisir {
     display: flex;
     justify-content: space-around;
+    margin-bottom: 25px;
 }
 
 .cotedroit {
@@ -129,7 +126,10 @@ header {
 .contenantgauche {
     width: 30%;
 }
-
+.contenantgauche span {
+    color: #feca07;
+    font-weight: bold;
+}
 .recommand {
     align-items: center;
 }
@@ -138,10 +138,6 @@ header {
     text-align: center;
 }
 
-li {
-    color: #feca07;
-    font-weight: bold;
-}
 
 .section_2 strong {
     font-weight: bold;
@@ -154,15 +150,14 @@ li {
 .aside_contact {
     margin: 3em;
 }
-
-.logo_2 {
+.section_2 .fas{
     margin-right: 25px;
 }
 
 @media screen and (min-width: 769px) and (max-width: 1024px) {
     #bloc_page {
         display: flex;
-        flex-direction: column-reverse;
+        flex-direction: column;
         width: auto;
     }
     aside {
@@ -183,14 +178,9 @@ li {
         font-size: 15px;
         line-height: 20px;
     }
-    .photodejohn2 {
-        display: block;
-        margin: auto;
-        margin-top: 8px;
-        width: 130px;
-        height: 130px;
-        border-radius: 75px;
-        box-shadow: 1px 1px 20px #555;
+    .aside_photo{
+        padding-top: 10%;
+       
     }
     header {
         display: flex;
@@ -199,18 +189,17 @@ li {
     .logo_loisir {
         display: flex;
         flex-direction: column;
-        justify-content: center;
         align-items: center;
     }
-    .aside_photo {
-        display: none;
+    .logo_loisir i{
+        margin-top: 35px;
     }
 }
 
 @media screen and (max-width: 768px) {
     #bloc_page {
         display: flex;
-        flex-direction: column-reverse;
+        flex-direction: column;
         width: auto;
     }
     aside {
@@ -221,18 +210,8 @@ li {
         display: flex;
         flex-direction: column;
     }
-    .photodejohn2 {
-        display: block;
-        margin: auto;
-        margin-top: 8px;
-        width: 130px;
-        height: 130px;
-        border-radius: 75px;
-        box-shadow: 1px 1px 20px #555;
-    }
-    .aside_photo {
-        display: none;
-    }
+    
+    
     header {
         display: flex;
         justify-content: space-between;
