@@ -153,50 +153,12 @@ header {
 .section_2 .fas{
     margin-right: 25px;
 }
-
-@media screen and (min-width: 769px) and (max-width: 1024px) {
-    #bloc_page {
-        display: flex;
-        flex-direction: column;
-        width: auto;
-    }
-    aside {
-        display: flex;
-        justify-content: space-around;
-        max-width: 100%;
-    }
-    .aside_2 {
-        margin-bottom: unset;
-    }
-    .aside_2 p {
-        font-size: 17px;
-    }
-    .aside_3 {
-        width: 35em;
-    }
-    .aside_contact p {
-        font-size: 15px;
-        line-height: 20px;
-    }
-    .aside_photo{
-        padding-top: 10%;
-       
-    }
-    header {
-        display: flex;
-        justify-content: space-between;
-    }
-    .logo_loisir {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-    .logo_loisir i{
-        margin-top: 35px;
-    }
+.cotedroit .fas {
+    color: #feca07;
 }
 
-@media screen and (max-width: 768px) {
+
+@media screen and (max-width: 1024px) {
     #bloc_page {
         display: flex;
         flex-direction: column;
@@ -226,10 +188,21 @@ header {
     .aside_2 p {
         font-size: 16px;
     }
+    h2 {
+        white-space: nowrap
+    }
+    .section_2 .fas{
+        margin-right: 5px;
+    }
+    @media screen and (max-width: 325px) {
+        .section_2 .fas{
+            display: none;
+        }
 }
 
 @media print {
     @page {
         margin: 1cm;
     }
+}
 }
