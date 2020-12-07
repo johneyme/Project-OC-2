@@ -154,6 +154,7 @@ header {
     color: #feca07;
 }
 
+/* Media queries pour affichage tablette */
 @media screen and (max-width: 1024px) {
     #bloc_page {
         display: flex;
@@ -188,6 +189,8 @@ header {
     .section_2 .fas {
         margin-right: 5px;
     }
+
+    /*Media Queries affichage smarthpone */
     @media screen and (max-width: 325px) {
         .section_2 .fas {
             display: none;
